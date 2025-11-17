@@ -1,0 +1,3 @@
+# local env files (do not commit secrets)
+.env
+Backend/.env
