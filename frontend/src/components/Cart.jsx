@@ -18,7 +18,7 @@ const Cart = () => {
     if (cart.length === 0) return;
 
     try {
-      const BASE = import.meta.env.VITE_API_URL || "http://localhost:5000";
+      const BASE = import.meta.env.VITE_API_URL ;
       const userStr = localStorage.getItem("user");
 
       if (!userStr) {
