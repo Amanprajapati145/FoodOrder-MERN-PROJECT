@@ -15,6 +15,7 @@ const CLIENT_URLS = [
     "http://localhost:5174",
     "http://localhost:5175",
     "http://localhost:5176",
+    "https://food-order-mern-project-gamma.vercel.app"
 ];
 
 app.use(
